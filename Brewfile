@@ -45,6 +45,7 @@ cask "github"
 cask "google-chrome"
 cask "gstreamer-runtime"
 cask "iterm2"
+cask "jan"
 cask "jetbrains-toolbox"
 cask "mmex"
 cask "ngrok"
@@ -57,6 +58,7 @@ cask "skype"
 cask "slack"
 cask "telegram-desktop"
 cask "unnaturalscrollwheels"
+cask "utm"
 cask "visual-studio-code"
 cask "whatsapp"
 
@@ -69,6 +71,7 @@ vscode "ms-dotnettools.csharp"
 vscode "ms-dotnettools.vscode-dotnet-runtime"
 
 # Fonts
+cask 'font-arial'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
