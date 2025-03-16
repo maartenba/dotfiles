@@ -1,0 +1,20 @@
+[user]
+	name = Maarten Balliauw
+	email = maarten@maartenballiauw.be
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHkqlAF5YvGlrXF+6XVwFw4dDHSPD45GkMDDvt18/e7F
+[core]
+	autocrlf = input
+	symlinks = true
+	longpaths = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true

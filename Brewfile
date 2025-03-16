@@ -1,0 +1,90 @@
+# Taps
+tap "cloudflare/cloudflare"
+tap "homebrew/bundle"
+tap "int128/kubelogin"
+tap "isen-ng/dotnet-sdk-versions"
+
+# Apps
+brew "sqlite"
+brew "azure-cli"
+brew "c-ares"
+brew "gettext"
+brew "cairo"
+brew "git"
+brew "git-lfs"
+brew "libnghttp2"
+brew "gnupg"
+brew "hugo"
+brew "openjdk"
+brew "mas"
+brew "maven"
+brew "nmap"
+brew "node@22", link: true
+brew "openjdk@11"
+brew "pinentry-mac"
+brew "podman"
+brew "sdl2"
+brew "sphinx-doc"
+brew "telnet"
+brew "wget"
+brew "yarn"
+brew "int128/kubelogin/kubelogin"
+cask "1password"
+cask "arc"
+cask "avibrazil-rdm"
+cask "betterdisplay"
+cask "displaylink"
+cask "docker"
+cask "dotnet-sdk3"
+cask "dotnet-sdk6"
+cask "dotnet-sdk7"
+cask "dotnet-sdk8"
+cask "dotnet-sdk9"
+cask "emclient"
+cask "github"
+cask "google-chrome"
+cask "gstreamer-runtime"
+cask "iterm2"
+cask "jetbrains-toolbox"
+cask "mmex"
+cask "ngrok"
+cask "onedrive"
+cask "pinta"
+cask "podman-desktop"
+cask "raycast"
+cask "signal"
+cask "skype"
+cask "slack"
+cask "telegram-desktop"
+cask "unnaturalscrollwheels"
+cask "visual-studio-code"
+cask "whatsapp"
+
+# VS Code Extensions
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "github.vscode-pull-request-github"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+
+# Fonts
+cask 'font-lato'
+cask 'font-open-sans'
+cask 'font-roboto'
+cask 'font-jetbrains-mono'
+cask 'font-heebo'
+
+# Mac App Store
+mas 'Keynote', id: 409183694
+mas 'Lunacy', id: 1582493835
+mas 'Microsoft Excel', id: 462058435
+mas 'Microsoft OneNote', id: 784801555
+mas 'Microsoft Powerpoint', id: 462062816
+mas 'Microsoft Word', id: 462054704
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Tailscale', id: 1475387142
+mas 'Windows App', id: 1295203466
+mas 'Wireguard', id: 1451685025
+mas 'Xcode', id: 497799835
