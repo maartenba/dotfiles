@@ -14,7 +14,7 @@ This repository serves as my way to help me setup and maintain my Mac. It takes 
    Alternatively just download the archive (and unzip it)
 
     ```zsh
-    curl https://github.com/maartenba/dotfiles/archive/refs/heads/main.zip && unzip main.zip -d ~/.dotfiles/ && rm -rf main.zip
+    curl -L --output main.zip https://github.com/maartenba/dotfiles/archive/refs/heads/main.zip && unzip main.zip -d ~/.dotfiles/ && mv ~/.dotfiles/dotfiles-main/* ~/.dotfiles/ && rm -rf main.zip
     ```
 
 4. Run the installation with:
