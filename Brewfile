@@ -47,7 +47,6 @@ cask "jetbrains-toolbox"
 cask "mmex"
 cask "ngrok"
 cask "onedrive"
-cask "pinta"
 cask "raycast"
 cask "signal"
 cask "skype"
@@ -83,6 +82,7 @@ mas 'Microsoft Powerpoint', id: 462062816
 mas 'Microsoft Word', id: 462054704
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
+mas 'Pixelmator Pro', id: 1289583905
 mas 'Tailscale', id: 1475387142
 mas 'Windows App', id: 1295203466
 mas 'Wireguard', id: 1451685025
