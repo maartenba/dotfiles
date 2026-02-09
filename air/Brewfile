@@ -1,0 +1,28 @@
+# Apps
+brew "openjdk@11"
+brew "pinentry-mac"
+brew "sdl2"
+brew "telnet"
+brew "wget"
+cask "1password"
+cask "google-chrome"
+cask "gstreamer-runtime"
+cask "iterm2"
+cask "onedrive"
+cask "signal"
+cask "unnaturalscrollwheels"
+
+# Fonts
+cask 'font-arial'
+cask 'font-lato'
+cask 'font-open-sans'
+#cask 'font-roboto'
+cask 'font-jetbrains-mono'
+cask 'font-heebo'
+
+# Mac App Store
+mas 'Microsoft Excel', id: 462058435
+mas 'Microsoft OneNote', id: 784801555
+mas 'Microsoft Powerpoint', id: 462062816
+mas 'Microsoft Word', id: 462054704
+mas 'Wireguard', id: 1451685025

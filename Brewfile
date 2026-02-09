@@ -1,6 +1,5 @@
 # Taps
 tap "cloudflare/cloudflare"
-tap "int128/kubelogin"
 tap "isen-ng/dotnet-sdk-versions"
 
 # Apps
@@ -16,7 +15,6 @@ brew "lychee"
 brew "gnupg"
 brew "openjdk"
 brew "mas"
-brew "maven"
 brew "nmap"
 brew "node@22", link: true
 brew "openjdk@11"
@@ -25,7 +23,6 @@ brew "sdl2"
 brew "telnet"
 brew "wget"
 brew "yarn"
-brew "int128/kubelogin/kubelogin"
 cask "1password"
 cask "betterdisplay"
 cask "cameracontroller"
@@ -69,7 +66,7 @@ vscode "ms-dotnettools.vscode-dotnet-runtime"
 cask 'font-arial'
 cask 'font-lato'
 cask 'font-open-sans'
-cask 'font-roboto'
+#cask 'font-roboto'
 cask 'font-jetbrains-mono'
 cask 'font-heebo'
 

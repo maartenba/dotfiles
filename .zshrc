@@ -7,3 +7,7 @@ ZSH_CUSTOM=$DOTFILES
 # User configuration
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/maartenba/.lmstudio/bin"
+# End of LM Studio CLI section
+
