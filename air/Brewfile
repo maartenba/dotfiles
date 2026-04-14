@@ -10,7 +10,7 @@ cask "gstreamer-runtime"
 cask "iterm2"
 cask "onedrive"
 cask "signal"
-cask "unnaturalscrollwheels"
+cask "scroll-reverser"
 
 # Fonts
 cask 'font-arial'
